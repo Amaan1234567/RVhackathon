@@ -7,7 +7,7 @@ import json as json
 
 app=Flask(__name__)
 CORS(app)
-model= pickle.load(open(r'C:\Desktop files\amaan files\python files\AI course files\practise_code_stuff\model.pkl','rb'))
+model= pickle.load(open(r'RVhackathon\model.pkl','rb'))
 
 @app.route('/')
 def home():
