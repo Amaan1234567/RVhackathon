@@ -16,7 +16,7 @@ document.getElementById('send-btn').addEventListener('click', async () => {
     })
 
     const content = await response.json();    
-    console.log(content)
+    document.getElementById("response").innerHTML = content['prediction'];
 })
 /* 
 const express=require("express");
