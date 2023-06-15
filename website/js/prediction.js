@@ -18,21 +18,3 @@ document.getElementById('send-btn').addEventListener('click', async () => {
     const content = await response.json();    
     document.getElementById("response").innerHTML = content['prediction'];
 })
-/* 
-const express=require("express");
-const http=require("http");
-// const bodyParser=require("body-parser");
-const app=express();
-
-app.get("/",function(req,res){
-
-  const url="http://127.0.0.1:8000/predict";
-  http.get(url,function(response){
-    console.log(response);
-  })
-  res.send("Server is up and running")
-})
-
-app.listen(3000,function(){
-  console.log("Server is running on port 3000");
-}) */
