@@ -23,7 +23,7 @@ The website has a clean and minimalist design, with a focus on simplicity and ea
         website effortlessly.
         
         
-**Methodology:  ** 
+**Methodology:** 
 
 First a simple and  a basic UI was developed.
 
