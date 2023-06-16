@@ -5,14 +5,14 @@ import numpy as np
 from flask_cors import CORS
 from flask import Flask,request,render_template, make_response
 from model import neuralnetwork
-from nltk_utils import bag_of_words, tokenize
+from nltk_untilities import bag_of_words, tokenize
 
 app=Flask(__name__)
 CORS(app)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intension.json', 'r') as json_data:
+with open('RVhackathon\chat_bot\intension.json', 'r') as json_data:
     intension = json.load(json_data)
 
 FILE = "data.pth"

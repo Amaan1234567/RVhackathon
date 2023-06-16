@@ -101,7 +101,7 @@
         "tag":"using detector",
         "patterns":["How to use disease detector","How do i use disease detector","How to use the disease detector"],
         "responses":["Click on the Disease Detector button above and it will take you to our disease detector portal where you can use the disease detector"]
-      }
+      },
       {
         "tag": "Using Website",
         "patterns": [
