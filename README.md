@@ -34,14 +34,14 @@ We created an AI model for a chatbot and trained it on an intentions JSON file, 
  A donations page which uses Stripe API.
  
  **Tech Stack used:**
- Scikit Learn
-Pytorch
-Html
-Css
-Js
-Bootstrap
-Flask api
-Weglot
+ Scikit Learn,
+Pytorch,
+Html,
+Css,
+Js,
+Bootstrap,
+Flask api,
+Weglot,
 Stripe API
 
 
@@ -49,8 +49,8 @@ Stripe API
 
 
 **Team Members:**
-Abdul Amaan 
-Harini N
+Abdul Amaan ,
+Harini N ,
 R Varsha Bantia
 
 
