@@ -15,8 +15,7 @@
           "Hey :-)",
           "Hello, thanks for visiting",
           "Hi there, what can I do for you?",
-          "Hi there, how can I help?",
-          "General kenobi"
+          "Hi there, how can I help?"
         ]
       },
       {
@@ -34,7 +33,7 @@
         "responses": ["Glad i could help you", "Anytime!", "My pleasure :)"]
       },
       {
-        "tag": "about payments",
+        "tag": "payments",
         "patterns": [
           "do you accept credit cards",
           "do you accept upi",
@@ -49,7 +48,7 @@
         ]
       },
       {
-        "tag": "how to payments",
+        "tag": "making payments",
         "patterns": [
           "how do i make the donations",
           "how do i make the payments",
@@ -103,7 +102,7 @@
         "responses":["Click on the Disease Detector button above and it will take you to our disease detector portal where you can use the disease detector"]
       },
       {
-        "tag": "Using Website",
+        "tag": "using Website",
         "patterns": [
           "how do I use this website",
           "how does this website work",

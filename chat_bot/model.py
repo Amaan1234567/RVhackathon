@@ -9,8 +9,12 @@ class neuralnetwork(nn.Module):
         self.l2 = nn.Linear(hidden_size, hidden_size)
         self.l3 = nn.Linear(hidden_size, hidden_size) 
         self.l4 = nn.Linear(hidden_size, hidden_size) 
-        self.l5 = nn.Linear(hidden_size, hidden_size) 
-        self.l6 = nn.Linear(hidden_size, num_classes)
+        self.l5 = nn.Linear(hidden_size, hidden_size)
+        self.l6 = nn.Linear(hidden_size, hidden_size) 
+        self.l7 = nn.Linear(hidden_size, hidden_size) 
+        self.l8 = nn.Linear(hidden_size, hidden_size) 
+        self.l9 = nn.Linear(hidden_size, hidden_size)  
+        self.l10 = nn.Linear(hidden_size, num_classes)
         self.relu = nn.ReLU()
     
     def forward(self, x):
@@ -25,5 +29,13 @@ class neuralnetwork(nn.Module):
         out = self.l5(out)
         out = self.relu(out)
         out = self.l6(out)
+        out = self.relu(out)
+        out = self.l7(out)
+        out = self.relu(out)
+        out = self.l8(out)
+        out = self.relu(out)
+        out = self.l9(out)
+        out = self.relu(out)
+        out = self.l10(out)
         
         return out
