@@ -49,7 +49,7 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Hyper-parameters 
-num_epochs = 3700
+num_epochs = 100
 batch_size =8
 learning_rate = 0.0019
 input_size = len(X_train[0])
@@ -115,7 +115,7 @@ data = {
 "tags": tags
 }
 
-FILE = "data.pth"
+FILE = "./RVhackathon/chat_bot/data.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')
